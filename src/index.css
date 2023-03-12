@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #001219;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin: 2px 40px 0 20px;
+  margin: 10px 40px 0 20px;
+  color: white;
 }
 
 .nav-items {
@@ -22,8 +24,11 @@ body {
 
 .nav-items>li {
   margin-left: 20px;
+  color: #61DBFB;
 }
 
 .logo {
-  width: 70px;
+  width: 35px;
+  height: 30px;
+  margin-top: 15px;
 }

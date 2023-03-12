@@ -7,9 +7,9 @@ export default function Header() {
             <nav className="navbar">
                 <img className="logo" src={logo} alt="react-logo" />
                 <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li>React</li>
+                    <li>Course</li>
+                    <li>Project</li>
                 </ul>
             </nav>
         </header>
