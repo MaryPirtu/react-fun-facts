@@ -4,8 +4,13 @@ import logo from "./logo.png"
 export default function Header() {
     return (
         <header>
-            <nav>
-                <img src={logo} alt="react-logo" width={"60px"} />
+            <nav className="navbar">
+                <img className="logo" src={logo} alt="react-logo" />
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
