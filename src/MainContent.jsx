@@ -2,14 +2,15 @@ import React from "react";
 
 export default function MainContent() {
     return (
-        <div>
+        <div className="main-content">
             <h1>Fun facts about React</h1>
-            <ol>
-                <li>it's composable</li>
-                <li>it's declarative </li>
-                <li>it's a hearable skill</li>
-                <li>it's actively maintained by Facebook</li>
-            </ol>
+            <ul>
+                <li>React is not a framework</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100k stars on GitHub</li>
+                <li>It's actively maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
         </div>
     )
 }
